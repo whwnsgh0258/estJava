@@ -36,10 +36,10 @@ public class String0531 {
         System.out.println(a.length());
         System.out.println(a.substring(0, 3) + a.substring(7, 9) + a.substring(11, 13));*/
 
-        /*String a = "a:b:c:d:e";
+        String a = "a:b:c:d:e";
 
         String[] split = a.split(":");
-        System.out.println(split[2]);*/
+        System.out.println(split[4]);
 
         /*String name1 = "Tim";
         int age1 = 20;
@@ -57,15 +57,15 @@ public class String0531 {
         result += "Hello ";
         result += "Java ";
         result += "World!";
-        System.out.println(result);
+        System.out.println(result);*/
 
-        StringBuilder sb = new StringBuilder();
+        /*StringBuilder sb = new StringBuilder();
         sb.append("Hello ");
         sb.append("Java ");
         sb.append("World!");
-        System.out.println(sb); // 원래는 .toString()을 붙혀야 했음
+        System.out.println(sb);*/ // 원래는 .toString()을 붙혀야 했음
 
-        StringBuffer sb1 = new StringBuffer();
+        /*StringBuffer sb1 = new StringBuffer();
         sb1.append("Hello ");
         sb1.append("Java ");
         sb1.append("World!");
@@ -78,5 +78,15 @@ public class String0531 {
         sb.insert(0,"World");
         sb.insert(0,"World");
         System.out.println(sb);*/
+
+        /*for (int i = 0; i < 5 ; i++) {
+            String str = "String";
+            System.out.println(str);
+        };
+        String a = "Hello World!";
+        System.out.println(a.indexOf("H"));*/
+
+        /*String a = "Hello World!";
+        System.out.println(a.contains("H World"));*/
     }
 }

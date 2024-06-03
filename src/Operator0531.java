@@ -17,9 +17,9 @@ public class Operator0531 {
         System.out.println("후위위 증가 연산자" + (y++));
 
         System.out.println("x = " + x);
-        System.out.println("y = " + y);
+        System.out.println("y = " + y);*/
 
-        //감소연산자
+        /* //감소연산자
         int a = 100;
         int b = 100;
 
@@ -51,10 +51,10 @@ public class Operator0531 {
             System.out.println("집에서 쉬기");
         }*/
 
-        double[] arr; // 실수형 배열 arr 생성
+        /*double[] arr; // 실수형 배열 arr 생성
         arr = new double[100]; // 배열 크기 지정
         arr[0] = 1.158; // arr배열에 0번째 index값에 1.158 넣기
         System.out.println(arr.length); // arr 배열의 길이 확인
-        System.out.println(arr[0]); // arr배열에 0번째 index값 확인
+        System.out.println(arr[0]); // arr배열에 0번째 index값 확인*/
     }
 }
