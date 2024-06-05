@@ -7,8 +7,8 @@ public class for0604 {
             i++;
         }*/
 
-        /* 문제 1 - 10부터 0까지 출력
-        int i = 10;
+        // 문제 1 - 10부터 0까지 출력
+        /*int i = 10;
         while (i >= 0) {
             System.out.println("현재 카운트: " + i);
             i--;
@@ -207,7 +207,7 @@ public class for0604 {
         }*/
 
         // 정수형 배열 반복문
-        /*int[] score = {1, 30, 20, 80, 15, 20, 30, 22};
+        int[] score = {1, 30, 20, 80, 15, 20, 30, 22};
         int sum = 0;
         double aver = 0;
         for (int i : score) {
@@ -215,7 +215,7 @@ public class for0604 {
             aver = (double)sum / score.length;
         }
         System.out.println("합: " + sum);
-        System.out.println("평균: " + aver);*/
+        System.out.println("평균: " + aver);
 
         // 문자열 배열 반복문
         String[] arr = {"okay2","asbds","good2","ormiiiii","abcde"};
