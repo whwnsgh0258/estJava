@@ -207,7 +207,7 @@ public class for0604 {
         }*/
 
         // 정수형 배열 반복문
-        int[] score = {1, 30, 20, 80, 15, 20, 30, 22};
+       /* int[] score = {1, 30, 20, 80, 15, 20, 30, 22};
         int sum = 0;
         double aver = 0;
         for (int i : score) {
@@ -223,6 +223,14 @@ public class for0604 {
         for(String name : arr) {
             if (name.length()>=5){
                 System.out.println(name);
+            }
+        }*/
+
+        String[] words = {"apple", "banana", "cherry", "durian"};
+
+        for (int i = 0; i < words.length - 1; i++) {
+            for (int j = i + 1; j < words.length; j++) {
+                System.out.println(words[i] + " " + words[j]);
             }
         }
     }

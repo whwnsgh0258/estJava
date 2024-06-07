@@ -1,4 +1,4 @@
-public class DailyQuiz {
+public class Quiz {
     public static void main(String[] args) {
         // 6월 4일
         // 1번
