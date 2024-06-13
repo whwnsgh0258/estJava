@@ -1,14 +1,14 @@
 public class Test {
     public static void main(String[] args) {
-        /*Person person = new Person();
+        /* Person person = new Person();
         person.setSpeed(100);
         person.checkSpeed();*/
 
-        /*Car car = new Car();
+        /* Car car = new Car();
         car.setSpeed(-100);
         car.setCheck();*/
 
-        /*InheritB inheritB = new InheritB();
+        /* InheritB inheritB = new InheritB();
         inheritB.field2 = "필드2";
         inheritB.method2();
         InheritA inheritA = new InheritA();
@@ -57,5 +57,4 @@ public class Test {
         dog.sound();
         System.out.println(dog.kind);*/
     }
-    // 부모 클래스의 특정 매서드 내부의 코드블럭을 수정하는게 오버라이딩
 }
