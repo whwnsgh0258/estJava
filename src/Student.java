@@ -8,14 +8,14 @@ public class Student {
     }
 
     public void levelUp() {
-        level++;
+        this.level++;
         System.out.println("레벨이 1 증가했습니다.");
         System.out.println("현재 레벨은 " + level + "입니다");
     }
 
     public void levelDown() {
         if (level > 1) {
-            level--;
+            this.level--;
             System.out.println("레벨이 1 감소했습니다.");
             System.out.println("현재 레벨은" + level + "입니다");
         }else {

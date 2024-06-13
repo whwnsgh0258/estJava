@@ -98,7 +98,7 @@ public class Remind {
         // 06/05
 
         // 실습1 (숫자 입력받아서 해당하는 계절 출력)
-        Scanner num = new Scanner(System.in);
+        /*Scanner num = new Scanner(System.in);
         System.out.println("숫자를 입력하세요.");
         int i = num.nextInt();
             switch (i) {
@@ -117,7 +117,7 @@ public class Remind {
                 default:
                     System.out.println("잘못된 입력 입니다.");
                     break;
-            }
+            }*/
 
 
         // 랜덤으로 출력된 숫자 맞추기
@@ -204,5 +204,6 @@ public class Remind {
         System.out.println("===================");
 
         input.close();*/
+
     }
 }

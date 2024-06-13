@@ -234,4 +234,66 @@ public class for0604 {
             }
         }
     }
+
+    /*public static class Test2 {
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+
+            Mathod test = new for0604.Test2();
+            System.out.println(test.good());*/
+            /*for0604.Test2 test2 = new for0604.Test2();
+            System.out.println(test2.add(2, 3));
+            System.out.println(test2.minus(3, 2));
+        }*/
+        /*static int add(int a, int b) {
+            return a + b;
+        }
+        static int sub(int a, int b) {
+            return a - b;
+        }
+        static int mul(int a, int b) {
+            return a * b;
+        }
+        static double div(int a, int b) {
+            return a / b;
+        }
+        static void login(String email, String password) {
+        }*/
+
+            /*Person person1 = new Person("조준호", 01000000001, 24, 10000);
+
+            Student student = new Student();
+            person1.sayHello();
+            person1.sayMoney();
+            person1.teaching(student);
+            person1.cheating(student);*/
+
+        /*    System.out.print("계좌번호를 입력 하세요: ");
+            String accountNumber = sc.nextLine();
+            System.out.print("소유자의 이름을 입력 하세요: ");
+            String ownerName = sc.nextLine();
+            BankAccount account = new BankAccount(accountNumber, ownerName);
+            // 입금 및 출금
+            account.deposit(100000); // 예시 입금
+            account.withdraw(50000); // 예시 출금
+
+            // 잔액 조회
+            account.printBalance();
+
+            sc.close();*/
+
+            /*Person2 person1 = new Person2("누누", 24, 180);
+            Person2 person2 = new Person2("윌럼프", 25, 170);
+
+            person1.printName();
+            person1.printAge();
+            person1.printHeight();
+
+            person2.printName();
+            person2.printAge();
+            person2.printHeight();
+            Mathod.Person2 okay = new Mathod.Person2("okay", 25, 11);
+            okay.testMethod();
+        }
+    }*/
 }
