@@ -29,7 +29,7 @@ public class Person {
         student.levelDown();
     }
 */
-    private int speed;
+    /*private int speed;
 
     public void setSpeed(int speed) {
         if (speed < 0) {
@@ -40,6 +40,17 @@ public class Person {
     }
     public void checkSpeed(){
         System.out.println(this.speed);
+    }*/
+
+    /*String name;
+    String ssn;
+
+    public Person(String name, String ssn) {
+        this.name = name;
+        this.ssn = ssn;
     }
 
+    public void say() {
+        System.out.println("my name is " + name);
+    }*/
 }
