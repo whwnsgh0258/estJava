@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Test {
@@ -126,5 +127,13 @@ public class Test {
             System.out.println("프로그램을 종료합니다.");
         }
         sc.close();*/
+    }
+    public int divide(int a, int b) {
+        if (b == 0) {
+            System.out.println("0으로 나눌 수 없습니다.");
+            return -1; // 또는 다른 오류 코드를 반환
+        } else {
+            return a / b;
+        }
     }
 }
