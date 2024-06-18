@@ -8,6 +8,6 @@ public class Test {
 
         Box<String> stringBox =  new Box<>();
         stringBox.set("하이");
-        stringBox.get();
+        System.out.println(stringBox.get());
     }
 }

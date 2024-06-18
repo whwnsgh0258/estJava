@@ -1,5 +1,5 @@
 package Day0617.Interface;
 
-public interface B {
+public interface InterB {
     void B();
 }

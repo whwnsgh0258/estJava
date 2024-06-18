@@ -21,8 +21,8 @@ public class If0603 {
         } else {
             System.out.println("a is less than b");
         }
-        String str = (a > b) ? "a is greater than b" : (a == b) ? "a and b are equal" : "a is less than b";
-        System.out.println(str);*/
+        String defaultMethod = (a > b) ? "a is greater than b" : (a == b) ? "a and b are equal" : "a is less than b";
+        System.out.println(defaultMethod);*/
 
 
         // if문 + 삼항연산자 활용 퀴즈
@@ -42,11 +42,11 @@ public class If0603 {
         /*int score = 75;
         char grade;
         if (score > 90) {
-            grade = 'A';
+            grade = 'InTerA';
         } else if (score > 80) {
-            grade = 'B';
+            grade = 'InterB';
         } else if (score > 70) {
-            grade = 'C';
+            grade = 'InterC';
         } else if (score > 60) {
             grade = 'D';
         } else {

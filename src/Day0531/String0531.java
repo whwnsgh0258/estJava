@@ -82,8 +82,8 @@ public class String0531 {
         System.out.println(sb);*/
 
         /*for (int i = 0; i < 5 ; i++) {
-            String str = "String";
-            System.out.println(str);
+            String defaultMethod = "String";
+            System.out.println(defaultMethod);
         };
         String a = "Hello World!";
         System.out.println(a.indexOf("H"));*/

@@ -1,9 +1,5 @@
 package Day0617;
 
-import Day0617.phone.Apple;
-import Day0617.phone.Phone;
-import Day0617.phone.Samsung;
-
 public class Test {
     public static void main(String[] args) {
         /*Phone applePhone = new Apple();
@@ -15,5 +11,9 @@ public class Test {
         System.out.println(applePhone.receiveCall());
         System.out.println(samsungPhone.receiveCall());*/
 
+        IClass iClass = new IClass();
+
+        iClass.nonDefaultMethod();
+        iClass.defaultMethod();
     }
 }

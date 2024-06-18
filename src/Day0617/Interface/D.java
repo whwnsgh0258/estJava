@@ -1,18 +1,22 @@
 package Day0617.Interface;
 
-public class D implements C{
-    @Override
-    public void C() {
-        System.out.println("C");
-    }
-
+public class D implements InterC {
     @Override
     public void A() {
-        System.out.println("A");
+        System.out.println("InTerA");
     }
 
     @Override
     public void B() {
-        System.out.println("B");
+        System.out.println("InterB");
+    }
+
+    @Override
+    public void C() {
+        System.out.println("InterC");
+    }
+
+    public void CallInterA(){
+        InterC.super.InterA();
     }
 }

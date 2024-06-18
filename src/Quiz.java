@@ -71,14 +71,14 @@ public class Quiz {
             }*/
 
             /*char grade;
-            switch (grade = 'C') {
-                case 'A':
+            switch (grade = 'InterC') {
+                case 'InTerA':
                     System.out.println("Excellent");
                     break;
-                case 'B':
+                case 'InterB':
                     System.out.println("Good");
                     break;
-                case 'C':
+                case 'InterC':
                     System.out.println("Average");
                     break;
                 case 'D':
@@ -110,13 +110,13 @@ public class Quiz {
             switch (score / 10) {
                 case 10:
                 case 9:
-                    System.out.println("A");
+                    System.out.println("InTerA");
                     break;
                 case 8:
-                    System.out.println("B");
+                    System.out.println("InterB");
                     break;
                 case 7:
-                    System.out.println("C");
+                    System.out.println("InterC");
                     break;
                 case 6:
                     System.out.println("D");
@@ -134,10 +134,10 @@ public class Quiz {
                 case "Python":
                     System.out.println("딥러닝");
                 break;
-                case "C#":
+                case "InterC#":
                     System.out.println("게임 개발");
                 break;
-                case "C++":
+                case "InterC++":
                     System.out.println("자바보다 어려움");
                 break;
             }

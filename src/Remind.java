@@ -182,11 +182,11 @@ public class Remind {
         char grade;
 
         if (avg >= 90) {
-            grade = 'A';
+            grade = 'InTerA';
         } else if (avg >= 80) {
-            grade = 'B';
+            grade = 'InterB';
         } else if (avg >= 70) {
-            grade = 'C';
+            grade = 'InterC';
         } else if (avg > 60) {
             grade = 'D';
         } else {
